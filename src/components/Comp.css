@@ -1,0 +1,129 @@
+.CompApp {
+    text-align: center;
+    align-items: center;
+  }
+
+.errorClass {
+  text-align: center;
+  align-items: center;
+}
+  
+#container {
+ margin:auto;
+ width:500px;
+}
+
+.gameListButton {
+  height:50px;
+  width:150px;
+  font-weight: bold;
+  
+}
+
+
+.tableStyle{
+    height:350px;
+    width:350px;
+    border:solid;
+    left: 60%;
+}
+
+
+.tdStyle{
+    border:solid;
+    height:104px;
+    width:104px;
+}
+
+
+.playerPortrait{
+  height:400px;
+  width:300px;
+  border:solid;
+  text-align: center;
+}
+
+.star-image {
+  width: 90px;
+  height: 90px;
+}
+
+.menu-symbol {
+  width:40px;
+  height:40px;
+
+ filter: opacity(0.5) drop-shadow(0 0 beige)
+}
+
+
+@keyframes smileyWake {
+
+  100%  {transform: rotate(0deg);}
+}
+
+.wakeUp {
+  animation-name: smileyWake;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes smileySleep {
+  0%  {transform: rotate(0deg);}
+  100%  {transform: rotate(90deg);}
+}
+
+.sleeping {
+  animation-name: smileySleep;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+
+@media (max-width: 415px) {
+  #container {
+    width:100%;
+   }
+}
+
+@media (max-width: 767.98px) {
+  .star-image {
+      width: 30px;
+      height: 30px;
+  }
+
+  .playerPortrait {
+    height:170px;
+    width:130px;
+  }
+
+  .playerPortrait h1 {
+    font-size: 20px; 
+}
+
+  .errorClass {
+  transform: translate(0,70%);
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .star-image {
+      width: 75px;
+      height: 75px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .star-image {
+      width: 90px;
+      height: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .star-image {
+      width: 100px;
+      height: 100px;
+  }
+}
