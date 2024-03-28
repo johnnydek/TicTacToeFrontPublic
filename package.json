@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.2",
-    "@babel/node": "^7.22.19"
+    "@babel/node": "^7.22.19",
+    "webpack-dev-middleware": "^7.1.1"
   }
 }
